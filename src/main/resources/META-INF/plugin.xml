@@ -27,5 +27,9 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
-    <actions id
+    <actions>
+        <action class="com.example.pluginkotlin.actions.ShowPopupAction" id="com.example.pluginkotlin.actions.ShowPopupAction" text="Show Popup Action">
+            <keyboard-shortcut first-keystroke="ctrl alt p" keymap="$default"/>
+        </action>
+    </actions>
 </idea-plugin>
